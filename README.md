@@ -1,2 +1,2 @@
 # dart-meteorology
-Hey look, a simple Dart CLI app that fetches weather info from OpenWeatherMap Ltd.
+Hey look, a simple Dart CLI app that fetches weather info from OpenWeatherMap Ltd. I'm not going to put some massive document here when there's nothing to really document. You can look at current weather data for your region as well as [Solar Irradiance](https://openweathermap.org/api) and [Solar Panel Power Predictons](https://openweathermap.org/api) all from one simple CLI tool.
