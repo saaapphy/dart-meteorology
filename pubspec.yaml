@@ -1,0 +1,6 @@
+name: 'dart_weather'
+version: 1.0.0
+build: 'release'
+
+environment:
+  sdk: '^3.4.0'
