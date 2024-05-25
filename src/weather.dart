@@ -2,6 +2,7 @@
 
 import 'check_api.dart';
 import 'package:http/http.dart' as http;
+import 'dart:io';
 
 void main() {
   // & Declaration of API key goes here...
@@ -12,7 +13,23 @@ void main() {
   // And make sure your key is accepted.
   CheckAPIHealth(OpenWeatherAPIKey);
 
-  // todo: implement a more user-friendly UI
-  // ... as best as possible with CLI.
+  // A nice UI, at least for a CLI...
+  // todo: Consider improvements, for now, it's fine.
+  print("########################################");
+  print("#                                      #");
+  print("#           Dart-Meteorology           #");
+  print("#                                      #");
+  print("#    Get the latest in weather info!   #");
+  print("#                                      #");
+  print("########################################");
+  print("\n1. Get Current Weather Data");
+  print("2. Exit program");
+  stdout.write(":: ");
+
+  String? UserInput = stdin.readLineSync();
+
+  if(UserInput == null) {
+    throw ArgumentError("Menu does not accept NULL arguments!");
+  }
   
 }
